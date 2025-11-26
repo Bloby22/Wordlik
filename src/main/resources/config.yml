@@ -1,0 +1,39 @@
+sounds:
+  enabled: true
+  win: true
+  lose: true
+  guess: true
+  invalid: true
+
+debug-mode: false
+
+auto-save-interval: 300
+
+game:
+  max-attempts: 6
+  timeout-minutes: 60
+  word-length: 5
+  allow-hints: true
+  hint-cost: 0
+
+messages:
+  prefix: "&6[Wordlik]&r "
+  game-start: "&aHra začala! Hádej 5písmenné slovo!"
+  game-end: "&cHra ukončena."
+  win: "&a&l🎉 VÝHRA! 🎉"
+  lose: "&c&lPROHRA!"
+  invalid-word: "&cToto slovo není v seznamu!"
+  invalid-length: "&cSlovo musí mít přesně 5 písmen!"
+  already-guessed: "&cToto slovo jsi už hádal!"
+  no-active-game: "&cNemáš aktivní hru!"
+  already-playing: "&cUž máš aktivní hru!"
+
+colors:
+  correct: "&a"
+  present: "&e"
+  absent: "&8"
+  
+statistics:
+  save-on-shutdown: true
+  track-play-time: true
+  track-hints: true
